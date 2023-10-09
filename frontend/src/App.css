@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url("Work\ Sans\ Light\ 300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
